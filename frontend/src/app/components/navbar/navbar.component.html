@@ -4,7 +4,15 @@
     <span *ngIf="isAdmin" class="admin-label">ACTING AS ADMIN</span>
   </div>
 
-  <ul class="nav-links">
+  <!-- Hamburger icon -->
+  <div class="hamburger" (click)="toggleMobileMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>  
+
+  <!-- Mobile and Desktop Nav Links -->
+  <ul class="nav-links" [class.show]="showMobileMenu">
     <li><a routerLink="/announcements">Home</a></li>
     <li><a routerLink="/select-company">Company</a></li>
     <li><a routerLink="/teams">Teams</a></li>

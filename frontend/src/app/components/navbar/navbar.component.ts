@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   user: any;
   isAdmin: boolean = false;
+  showMobileMenu: boolean = false;
 
   ngOnInit(): void {
     const storedUser = localStorage.getItem('user');
@@ -21,4 +22,9 @@ export class NavbarComponent implements OnInit {
     localStorage.clear();
     window.location.href = '/login';
   }
+
+  toggleMobileMenu(): void {
+    console.log('Hamburger clicked!');
+    this.showMobileMenu = !this.showMobileMenu;
+  }  
 }

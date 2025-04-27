@@ -78,4 +78,43 @@
     font-size: 0.85rem;
   }
   
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #071e29;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      padding: 1rem;
+      z-index: 10;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  
+    .user-info {
+      display: none;
+    }
+  }
+  
   

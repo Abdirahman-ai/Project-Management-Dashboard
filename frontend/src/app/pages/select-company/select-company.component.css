@@ -135,3 +135,37 @@ button:hover:not(:disabled) {
   cursor: pointer;
   width: 100%;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+  }
+
+  .user-table, .announcement-card, .user-form {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .user-row {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .actions, .add-user-wrapper {
+    justify-content: center;
+  }
+
+  .add-user-btn, .create-user-btn {
+    width: 100%;
+  }
+
+  input, textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
