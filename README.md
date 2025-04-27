@@ -1,17 +1,23 @@
-# Full Stack -  Project Management Dashboard App
+# 🛠️  Full Stack -  Project Management Dashboard App
 
-A full-stack Project Management Dashboard and team management web application built with **Spring Boot**, **PostgreSQL**, and **Angular**.
+A full-stack application built with **Spring Boot**, **PostgreSQL**, and **Angular** that allows companies to manage users, teams, projects, and announcements.
+Built to simulate real-world role-based access and company structures.
 
 ## Features
-- User authentication and role-based access (Admin/User)
+- User authentication and role-based access control (Admin vs Regular User)
 - Company, Team, Project, and Announcement management
-- User search, filtering, and registration
-- Responsive design matching custom wireframes
+- Admins can create new users, announcements, and teams
+- Regular users can view announcements and projects
+- User search and filtering functionality
+- Responsive UI matching professional wireframes
+- CORS setup for smooth frontend-backend communication
 - RESTful backend APIs with secure DTO mappings
 
 ## Tech Stack
-- Backend: Java, Spring Boot, PostgreSQL
-- Frontend: Angular, TypeScript, HTML/CSS
+- Frontend: Angular, TypeScript, SCSS
+- Backend: Java, Spring Boot, JPA/Hibernate
+- Database: PostgreSQL
+- Hosting: GitHub Pages (frontend), Render (backend)
 
 ## Setup Instructions
 1. Clone the repository
@@ -23,7 +29,6 @@ A full-stack Project Management Dashboard and team management web application bu
 - Profile pages for users
 - Role-based dashboard customization
 - Drag-and-drop task assignment
-- Mobile responsiveness
 
 ## ERD
 
