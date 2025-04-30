@@ -45,7 +45,7 @@ Built to simulate real-world role-based access and company structures.
 ![Project Management Page](path_to_your_project_management_gif.gif)
 
 #### 📣 Announcements Feed
-![Announcements Feed](path_to_your_announcements_feed_gif.gif)
+![Announcements Feed](anouncementPage.gif)
 
 #### 🔍 User Search + Filter
 ![User Search + Filter](path_to_your_user_search_filter_gif.gif)
