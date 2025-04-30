@@ -33,7 +33,7 @@ Built to simulate real-world role-based access and company structures.
 ## ✨ Screenshots
 
 #### 🔐 Login Page
-![Login Page](path_to_your_login_page_gif.gif)
+![Login Page](loginPage.gif)
 
 #### 🧑‍💼 Admin Dashboard
 ![Admin Dashboard](path_to_your_admin_dashboard_gif.gif)
