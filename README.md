@@ -1,4 +1,4 @@
-# 🛠️  Full Stack -  Project Management Dashboard App
+# 🛠️  Full Stack - Project Management Dashboard App
 
 A full-stack application built with **Spring Boot**, **PostgreSQL**, and **Angular** that allows companies to manage users, teams, projects, and announcements.
 Built to simulate real-world role-based access and company structures.
@@ -14,10 +14,10 @@ Built to simulate real-world role-based access and company structures.
 - RESTful backend APIs with secure DTO mappings
 
 ## Tech Stack
-- Frontend: Angular, TypeScript, SCSS
-- Backend: Java, Spring Boot, JPA/Hibernate
-- Database: PostgreSQL
-- Hosting: GitHub Pages (frontend), Render (backend)
+- **Frontend**: Angular, TypeScript, SCSS
+- **Backend**: Java, Spring Boot, JPA/Hibernate
+- **Database**: PostgreSQL
+- **Hosting**: GitHub Pages (frontend), Render (backend)
 
 ## Setup Instructions
 1. Clone the repository
@@ -30,8 +30,26 @@ Built to simulate real-world role-based access and company structures.
 - Role-based dashboard customization
 - Drag-and-drop task assignment
 
-
 ## ✨ Screenshots
+
+#### 🔐 Login Page
+![Login Page](path_to_your_login_page_gif.gif)
+
+#### 🧑‍💼 Admin Dashboard
+![Admin Dashboard](path_to_your_admin_dashboard_gif.gif)
+
+#### 👥 Team Management Page
+![Team Management Page](path_to_your_team_management_gif.gif)
+
+#### 🛠️ Project Management Page
+![Project Management Page](path_to_your_project_management_gif.gif)
+
+#### 📣 Announcements Feed
+![Announcements Feed](path_to_your_announcements_feed_gif.gif)
+
+#### 🔍 User Search + Filter
+![User Search + Filter](path_to_your_user_search_filter_gif.gif)
+
 
 ## ERD
 
