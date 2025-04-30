@@ -47,8 +47,12 @@ Built to simulate real-world role-based access and company structures.
 #### 📣 Announcements Feed
 ![Announcements Feed](anouncementPage.gif)
 
-#### 🔍 List of all company users: 
+####  List of all company users: 
 ![User Search + Filter](usersPage.gif)
+
+#### 🔍 Search and filter users:
+![User Search + Filter](searchAndFilterUsers.gif)
+
 
 
 ## ERD
